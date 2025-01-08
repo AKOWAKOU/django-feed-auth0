@@ -1,3 +1,5 @@
 env/
 __pycache__/
 feed/db.sqlite3
+venv
+.env
