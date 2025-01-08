@@ -14,8 +14,8 @@ cd django-feed-auth0
 Next, install the dependencies:
 
 ```bash
-python -m venv env
-source env/bin/activate
+python3.8 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
@@ -28,17 +28,17 @@ Migrate the application:
 
 ```shell script
 cd feed
-python manage.py migrate
+python3.8 manage.py migrate
 ```
 
 Create a superuser:
 
 ```shell script
-python manage.py createsuperuser
+python3.8 manage.py createsuperuser
 ```
 
 Finally, run the application:
 
 ```bash
-python manage.py runserver
+python3.8 manage.py runserver
 ```
